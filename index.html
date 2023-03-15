@@ -9,52 +9,52 @@
       margin: 0;
       box-sizing: border-box;
     }
-    .all nav
+    .all
     {
       display: flex;
       flex-direction: row;
-      justify-content: flex-end;
-      background-color: #212121  ;
-      height: 5vh;
+      justify-content: space-between;
+      background-color: #212121;
+      height: 6vh;
     }
-    .all a
+    .nav1
     {
-      color: aliceblue;
+      align-self: center;
+    }
+    .nav1 a{
       text-decoration: none;
-      font-size: 50%;
-      margin: auto 1%;
+      color: aliceblue;
+      margin: auto 4px;
+      font-size: 10px;
     }
-    .all nav a:hover
+    .nav1 a:hover
     {
-      background-color: aliceblue;
       color: black;
+      background-color: aliceblue;
       border-radius: 3px;
     }
     .logo1
     {
+      align-self: center;
       color: aliceblue;
-      margin: 1px;
-      margin-right: 10%;
+      font-style: italic;
     }
-    .all img
-    {
-      margin-right: 35%;
-    }
-  </style>
+ </style>
 </head>
 <body>
   <div class="all">
-    <nav>
-      <img src="images.png" alt="image">
+        <img src="images.png" alt="image">
       <div class="logo1">
-         GAUR SUNDER DASS
-    </div>
+          Portfolio
+      </div>
+       <div class="nav1">
       <a href="Home">HOME</a>
       <a href="Contacts">CONTACTS</a>
       <a href="about">ABOUT ME</a>
       <a href="RESUME">RESUME</a>
       <a href="project">PROJECTS</a>
-      </nav>
+    </div>
+      
   </div>
 </body>
 </html>
